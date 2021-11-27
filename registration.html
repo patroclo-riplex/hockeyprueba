@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./css/mdhl3.css">
+	<meta charset="utf-8">
+	<title>Registration</title>
+</head>
+<body>
+	<header>
+		<img src="./img/LogoMightyducks-01.png" alt="Team logo" class="img1">
+		<h1>Mighty Ducks Hocke y League</h1>
+	</header>
+	
+	<h2>Registration</h2>
+	
+	<nav>
+		<ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./game_info.html">Games</a></li>
+            <li><a href="./rules.html">Rules</a></li>
+			<li><a href="./registration.html">Registration</a></li>
+            <li><a href="./about.html">About MDHL</a></li>
+            <li><a href="./contac.html">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<form  autocomplete="off" action="show_data.html" method="get">	
+			
+			<fieldset>		<!-- FIELDSET SOBRE DATOS GENERALES SOBRE JUGADOR -->
+				
+				<legend><b>Registration Form</b></legend>
+				
+				<label for="playername">Player's first name</label>
+				<input type="text" name="first_name" id="playername">
+				
+				<label for="playerlastname">Player's last name</label>
+				<input type="text" name="last_name" id="playerlastname">
+				<br>
+				<label for="address">Street Address</label>
+				<input type="text" name="address" id="address">
+				
+				<label for="city">City</label>
+				<input type="text" name="city" id="city">
+				
+				<label for="zip_code">Zip Code</label>
+				<input type="text" name="zip_code" id="zip_code">
+				<br>
+				<label for="birthdate">Birth Date</label>
+				<input type="date" name="birthdate" id="birthdate">
+				
+                <label for="gender">Gender</label>
+				<label><input type="checkbox" name="gender" value="female">Female</label>
+				<label><input type="checkbox" name="gender" value="male">Male</label>
+	
+                <br>
+                <label for="grade">  Grade</label>
+                <label><input type="checkbox" name="grade" value="pre-school">Pre-School</label>
+                <label><input type="checkbox" name="grade" value="1st">1st</label>
+                <label><input type="checkbox" name="grade" value="2nd">2nd</label>
+                <label><input type="checkbox" name="grade" value="3rd">3rd</label>
+                <label><input type="checkbox" name="grade" value="4th">4th</label>
+                <label><input type="checkbox" name="grade" value="5th">5th</label>
+
+				
+			</fieldset>
+			<fieldset>   <!--FIELDSET SOBRE LOS COLEGIOS-->
+				<legend><b>Which elementary school do you live near?</b></legend>
+				
+					<label><input type="radio" name="school" value="aj_katzenmeier">AJ Katzenmeier</label>
+					<label><input type="radio" name="school" value="greenbay">Greenbay</label>
+					<label><input type="radio" name="school" value="howard_a_yeager">Howard A Yeager</label>
+					<label><input type="radio" name="school" value="marjorie_p_hart">Marjorie P Hart</label>
+					<label><input type="radio" name="school" value="north_elementary">North Elementary</label>
+					<label><input type="radio" name="school" value="south_elementary">South Elementary</label>
+			</fieldset>
+			
+			<fieldset>     <!--FIELDSET SOBRE POSICIONES DE JUEGO-->
+				<fieldset>
+					<legend><b>What position(s) do you normally play?</b> (check all that apply)</legend>
+					
+					<label><input type="checkbox" name="actualpos" value="forward">Forward</label>
+					<label><input type="checkbox" name="actualpos" value="defense">Defense</label>
+					<label><input type="checkbox" name="actualpos" value="midfield">Midfield</label>
+					<label><input type="checkbox" name="actualpos" value="goalkeeper">Goalkeeper</label>
+				</fieldset>
+			</fieldset>
+			
+			<fieldset>  <!-- FIELDSET SOBRE UNIFORME DE JUEGO -->
+				
+				<fieldset>
+					<legend><b>Uniform size:</b></legend>
+					<label><input type="radio" name="Uniform" value="y_small">Youth small</label>
+					<label><input type="radio" name="Uniform" value="y_medium">Youth medium</label>
+					<label><input type="radio" name="Uniform" value="y_large">Youth large</label>
+					<label><input type="radio" name="Uniform" value="small">Small</label>
+					<label><input type="radio" name="Uniform" value="medium">Medium</label>
+					<label><input type="radio" name="Uniform" value="large">Large</label>
+					<label><input type="radio" name="Uniform" value="xlarge">Extra-large</label>
+				</fieldset>
+				
+			</fieldset>
+			
+			<fieldset> <!--FIELDSET AGREEMENT DE TERMINO -->
+				<h6>Permission to Play</h6>
+				<p id="agreement">I, the parent or guardian of the minor registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the regitrant for its hockey programs and activities, i hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and game, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation.<br> By signing below, i hereby agree and authorize the above. In addition, by signing below, i also acknowledge that i have read the cancellation policy and agree to its terms</p>
+				
+				<blockquote>
+					<label>Parent/Guardian Signature:<input type="text" name="sign"></label>
+					<label>Date:<input type="date" name="date"></label>
+				</blockquote>
+			</fieldset>
+			
+			<input id="submit" type="submit" value="SUBMIT">
+			</form>
+		
+	</section>
+</body>
+</html>

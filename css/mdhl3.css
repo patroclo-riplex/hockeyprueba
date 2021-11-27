@@ -1,0 +1,299 @@
+
+body {
+	position: relative;
+	box-sizing: border-box;
+	background-image: url(../img/ban.jpg);
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+nav {
+	width: 100%;
+	height: 75px;
+	background-color: blue;
+	opacity: 0.9;
+	position: fixed;
+	top: 0px;
+	z-index: 1; 
+}
+
+.menu a:hover {
+    background-color: aquamarine;
+    color: #191c32;
+    transition: ease-in .3s;
+  }
+
+nav ul {
+	margin: 0px;
+	line-height: 75px;
+	vertical-align: middle;
+	justify-content: space-around;
+	display: flex;
+	list-style: none;
+}
+
+li a {
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+
+header {
+	box-sizing: border-box;
+	background-color: blue;
+	border-radius: 100px;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 150px;
+	border-style: solid;
+	border-color: #14299e;
+}
+
+header h1 {
+	margin: 0px;
+	position: absolute;
+	line-height: 200px;
+	vertical-align: middle;
+	font-family: 'octin_sportsregular';
+	font-size: 55px;
+	letter-spacing: 1px;
+	word-spacing: 15px;
+	color: #fafafa;
+	left: 25%;
+}
+
+.img1 {
+    position: absolute;
+    right: 1700px;
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+
+h2 {
+	position: absolute;
+	background-color: #033949;
+	top: 400px;
+	line-height: 100px;
+	width: 60%;
+	left: 20%;
+	font-family: 'octin_sportsregular';
+	font-size: 45px;
+	color: blue;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-style: dashed;
+	border-width: 3px;
+	text-align: center;
+}
+
+section {
+	position: relative;
+	margin-bottom: 60px;
+	background-color: white;
+	top: 543px;
+	width: 60%;
+	left: 20%;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: white;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	text-align: center;
+}
+
+
+section h3 {
+	font-size: 40px;
+	font-family: "Impact";
+	margin-bottom: 0px;
+}
+
+section a {
+	color: purple;
+	text-decoration: none;
+}
+
+section li p {
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.detail{
+	margin-top: 0px;
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10px;
+	color: white;
+  }
+
+
+ ul {
+    list-style-type: none;
+} 
+
+
+/*-----ESTILOS DE RULES-----*/
+#encabezado {
+	margin: 0px;
+}
+
+div h3 {
+	font-family: "Arial";
+	font-size: 24px;
+}
+
+h4 {
+	font-family: Arial;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+div p {
+    text-decoration-line: underline;
+}
+
+.tranqui {
+	text-align: left;
+	margin-left: 10px;
+} 
+ 
+h5 {
+	line-height: 50px;
+	font-size: 16px;
+	font-family: Arial;
+	margin-bottom: 0px;
+	border-radius: 25px;
+}
+
+div li {
+	font-family: "Arial";
+}
+.ftipo {
+    list-style-type: lower-alpha;
+}
+
+.fca {
+    list-style-type: none;
+}
+
+.ftech {
+    list-style-type: none;
+}
+
+
+/*-----ESTILOS DE GAME_INFO----- */
+
+table {
+    margin-left: 20px;
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+th {
+	background-color: white;
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration-line: underline;
+	text-align: left;
+}
+
+td {
+	border-collapse: collapse;
+	text-align: left;
+	font-family: Arial;
+}
+
+.date {
+	text-align: center;
+	width: 35%;
+}
+
+
+.foot {
+	margin-right: 25px;
+	display: inline-block;
+}
+
+
+/*----- ESTILOS DE REGISTRATION ------*/
+
+form{
+	text-align: center;
+}
+fieldset{
+	border-width: 5px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border-color: #033949;
+}
+
+fieldset p{
+	font-family: "Arial";
+	font-size: 16px;
+}
+
+#agreement{
+	text-align: left;
+}
+
+h6{
+	font-size: 50px;
+	font-family: "Trebuchet MS";
+	color:blue;
+	background-color: #033949;
+	border-radius: 25px;
+	text-align: center;
+	margin: 0px;
+}
+
+legend{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	line-height: 30px;
+	border-radius: 15px;
+	color: blue;
+	background-color: #033949;
+}
+
+input{
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+label{
+	font-family: "Arial"
+}
+
+#submit{
+	border:none;
+	font-size: 60px;
+	font-family: 'octin_sportsregular';
+	color: blue;
+	border-radius: 15px;
+	background-color: #033949;
+	margin: 35px;
+	cursor:pointer;
+	transition-duration: 1s;
+}
+
+#submit:hover{
+	transform: scale(1.5,1.5);
+}
